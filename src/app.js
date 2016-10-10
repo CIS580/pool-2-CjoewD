@@ -3,7 +3,7 @@
 /* Classes */
 const Game = require('./game');
 
-/* Global variables */
+/*  Global variables  */
 var canvas = document.getElementById('screen');
 var game = new Game(canvas, update, render);
 var image = new Image();
@@ -31,7 +31,7 @@ for(var i = 0; i < 18; i++){
 rack();
 
 /**
- * Helper function to rack the balls
+ * Helper function to rack balls
  */
 function rack() {
   balls[15].position.x = 732;
